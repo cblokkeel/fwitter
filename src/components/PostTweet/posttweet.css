@@ -1,0 +1,43 @@
+.post-tweet {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(0 0 0 / 20%);
+  height: 100px;
+  box-shadow: 0 5px 20px -1px rgb(0 0 0 / 15%);
+  border-radius: 0 0 12px 12px;
+  padding: 0 40px;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  gap: 20px;
+}
+
+.post-a-tweet {
+  background: rgb(0 0 0 / 15%);
+  border: none;
+  outline: none;
+  padding: 20px;
+  width: 100%;
+  font-family: 'Montserrat';
+  color: white;
+}
+
+.fweet-button {
+  cursor: pointer;
+  padding: 15px 20px;
+  font-family: 'Montserrat';
+  border: none;
+  outline: none;
+  transition: ease-in-out 0.2s;
+  background: #e67e22;
+  color: white;
+}
+
+.fweet-button:hover {
+  transform: scale(1.1);
+}

@@ -1,0 +1,32 @@
+.feed {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 40px;
+  gap: 10px;
+}
+
+.tweet {
+  display: flex;
+  cursor: pointer;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  border-radius: 12px;
+  background: rgb(0 0 0 / 5%);
+  box-shadow: 0 4px 12px -1px rgb(0 0 0 / 50%);
+  transition: all 0.2s;
+}
+
+.tweet:hover {
+  transform: scale(1.02);
+}
+
+.tweet-content,
+.tweet-author {
+  padding: 0 20px;
+}
+
+.tweet-author {
+  align-self: flex-end;
+}
