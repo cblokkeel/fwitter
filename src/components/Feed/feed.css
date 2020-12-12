@@ -4,6 +4,7 @@
   flex-direction: column;
   padding: 0 40px;
   gap: 10px;
+  margin-bottom: 30px;
 }
 
 .tweet {

@@ -1,13 +1,13 @@
 import React from 'react'
 import './feed.css'
 
-const Feed = ({ tweets }) => {
+const Feed = ({ fweets }) => {
     return (
         <div className='feed'>
-            {tweets.map(tweet => {
-                return <div className='tweet' key={tweet.id}>
-                    <p className='tweet-content'>{tweet.content}</p>
-                    <p className='tweet-author'>{tweet.author}</p>
+            {fweets.map(fweet => {
+                return <div className='tweet' key={fweet.id}>
+                    <p className='tweet-content'>{fweet.content}</p>
+                    <p className='tweet-author'>{fweet.author}</p>
                 </div>
             })}
         </div>

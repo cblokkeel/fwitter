@@ -7,7 +7,7 @@ const tweets = [
     {
         id: 2,
         author: 'Assyl',
-        content: 'salut je suis belle'
+        content: 'salut je suis belle comme un cochon d\'amour'
     },
     {
         id: 3,
@@ -23,7 +23,7 @@ const tweets = [
         id: 5,
         author: 'Bill',
         content: 'salut je suis beau comme un livre'
-    },
+    }
 ]
 
 export default tweets

@@ -3,6 +3,7 @@
   height: 100vh;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
 }
 
 .register-form {
@@ -10,7 +11,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 50vh;
+  height: 75vh;
   width: 50%;
   background: rgb(0 0 0 / 20%);
   border-radius: 12px;
@@ -32,7 +33,6 @@
   border: none;
   outline: none;
   font-family: 'Montserrat';
-  margin-top: 12px;
   background: rgb(0 0 0 / 60%);
   color: white;
   cursor: pointer;
