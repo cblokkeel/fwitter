@@ -11,6 +11,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  gap: 30px;
   height: 50vh;
   width: 50%;
   background: rgb(0 0 0 / 20%);
@@ -52,4 +53,11 @@
 
 .already-account:hover {
   color: #e67e22;
+}
+
+@media screen and (max-width: 600px) {
+  .signin-form {
+    height: 65vh;
+    gap: 20px;
+  }
 }

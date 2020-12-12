@@ -11,6 +11,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  gap: 20px;
   height: 75vh;
   width: 50%;
   background: rgb(0 0 0 / 20%);
